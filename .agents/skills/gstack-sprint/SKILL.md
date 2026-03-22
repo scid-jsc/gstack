@@ -375,6 +375,7 @@ When the user types `/sprint`, run this skill.
 - `/sprint approve <task_id>` — send task for approval via Odoo chatter
 - `/sprint review` — list tasks pending approval
 - `/sprint report` — generate sprint report
+- `/sprint dashboard` — project-level overview (all sprints, health, risks)
 
 ## Step 0: Load Odoo Config
 
@@ -919,6 +920,142 @@ EOF
 
 3. Create/update corresponding Odoo task with deploy details
 4. Tell the user: "Deploy approval created on GitHub. Close the issue when approved, then proceed with deployment."
+
+## Command: Dashboard (`/sprint dashboard`)
+
+Project-level overview across **all sprints**. Pulls from both Odoo and GitHub.
+
+**Step 1: Get all milestones (sprints) from Odoo:**
+
+```bash
+curl -s -X POST "<URL>/jsonrpc" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "method": "call",
+    "params": {
+      "service": "object",
+      "method": "execute_kw",
+      "args": ["<DB>", <UID>, "<API_KEY>", "project.milestone", "search_read",
+        [[["project_id", "=", <PROJECT_ID>]]],
+        {"fields": ["name", "id", "deadline", "is_reached"], "order": "create_date desc"}
+      ]
+    }
+  }'
+```
+
+**Step 2: Get all tasks with stages:**
+
+```bash
+curl -s -X POST "<URL>/jsonrpc" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "jsonrpc": "2.0",
+    "method": "call",
+    "params": {
+      "service": "object",
+      "method": "execute_kw",
+      "args": ["<DB>", <UID>, "<API_KEY>", "project.task", "search_read",
+        [[["project_id", "=", <PROJECT_ID>]]],
+        {"fields": ["name", "id", "stage_id", "milestone_id", "priority", "date_deadline", "tag_ids"], "order": "priority desc, create_date desc"}
+      ]
+    }
+  }'
+```
+
+**Step 3: Get GitHub Issues + PRs:**
+
+```bash
+gh issue list --state all --label "sprint" --json number,title,state,labels,milestone,createdAt,closedAt --limit 100
+```
+
+```bash
+gh pr list --state all --json number,title,state,labels,milestone,createdAt,mergedAt --limit 50
+```
+
+**Step 4: Compute metrics and render dashboard:**
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                    PROJECT DASHBOARD                        ║
+║                    <PROJECT_NAME>                            ║
+╚══════════════════════════════════════════════════════════════╝
+
+📊 Sprint Overview
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sprint          Tasks    Done    Progress        Deadline
+Sprint-03 ★     5/12     5/12    ████░░░░ 42%    Mar 29
+Sprint-02 ✓     10/10   10/10    ████████ 100%   Mar 15
+Sprint-01 ✓     8/8      8/8     ████████ 100%   Mar 1
+
+★ = current    ✓ = completed
+
+📈 Velocity Trend
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sprint-01:  ████████░░  8 tasks
+Sprint-02:  ██████████  10 tasks
+Sprint-03:  █████░░░░░  5/12 (in progress)
+
+Avg velocity: 9 tasks/sprint
+
+👥 Ownership Breakdown (Current Sprint)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Owner       In Progress   Review   Done   Total
+AI Dev      3             1        4      8
+PO          0             1        3      4
+
+🔄 Task Pipeline (Current Sprint)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+New (3)          In Progress (3)    Review (2)       Done (5)
+├─ #51 feat:     ├─ #48 feat:       ├─ #46 feat:     ├─ #41 feat: ✓
+├─ #52 fix:      ├─ #49 perf:       └─ #50 deploy:   ├─ #42 fix: ✓
+└─ #53 security: └─ #47 maintain:                    ├─ #43 chore: ✓
+                                                     ├─ #44 feat: ✓
+                                                     └─ #45 fix: ✓
+
+📋 By Type (Current Sprint)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+feat:       5  ██████████████░░░░░░  (42%)
+fix:        3  ████████░░░░░░░░░░░░  (25%)
+chore:      1  ███░░░░░░░░░░░░░░░░░  (8%)
+security:   1  ███░░░░░░░░░░░░░░░░░  (8%)
+perf:       1  ███░░░░░░░░░░░░░░░░░  (8%)
+maintain:   1  ███░░░░░░░░░░░░░░░░░  (8%)
+
+⚠️  Risks & Blockers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔴 Overdue:     #48 feat: User auth (deadline Mar 20, 2 days late)
+🟡 At risk:     #49 perf: Image loading (deadline Mar 28, 1 day buffer)
+🔵 Blocked:     None
+⏳ Stale:       #53 security: (New for 5+ days, not started)
+
+🔍 Pending Approvals
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GH #46   feat: Payment integration    — waiting 2 days
+GH #50   deploy: Release v2.0         — waiting 1 day
+
+📊 Cumulative Stats
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total tasks (all sprints):  30
+Completed:                  23 (77%)
+Avg cycle time:             3.2 days
+Longest task:               #48 feat: User auth (8 days)
+PRs merged:                 18
+```
+
+**Health indicators** — compute automatically:
+
+| Signal | Condition | Display |
+|--------|-----------|---------|
+| 🔴 Overdue | `deadline < today` and not Done | Show in Risks |
+| 🟡 At risk | `deadline - today <= 2 days` and not Done | Show in Risks |
+| 🔵 Blocked | Task in "Blocked" stage | Show in Risks |
+| ⏳ Stale | In "New" stage for 5+ days | Show in Risks |
+| ✅ On track | Sprint progress >= expected % based on elapsed time | Green header |
+| ⚠️ Behind | Sprint progress < expected % by 20+ points | Yellow header |
+
+**Expected progress** = `(days_elapsed / sprint_duration) × 100`. If actual completion %
+is 20+ points below expected, flag the sprint as "Behind schedule" in the header.
 
 ## Tone
 
