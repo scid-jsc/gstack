@@ -17,9 +17,9 @@ Sushi tươi, sạch, phong cách Nhật.
 - Địa chỉ: 24 Đường 67, Tân Quy, Quận 7
 - Bò cuốn lá lốt nướng than, ăn kèm bánh tráng, rau sống, khế chua, chuối xanh.
 
-### 5. Nem Nướng Hoàng Phương
-- Địa chỉ: 87 Đường số 9, Tân Quy, Quận 7
-- Nem nướng thịt heo tươi, cuốn bánh tráng với rau sống và nước mắm chua ngọt.
+### 5. Gỏi Cuốn Cô Phượng
+- Địa chỉ: 99 Nguyễn Thị Xiếu, Tân Thuận Tây, Quận 7
+- Gỏi cuốn tôm thịt, bánh tráng dẻo dai, rau sống tươi sạch. Nguyên liệu chọn kỹ, đảm bảo vệ sinh.
 
 ### 6. Bò Tơ Quán Mộc
 - Địa chỉ: 43-45 Nguyễn Thị Thập, Him Lam, Quận 7
