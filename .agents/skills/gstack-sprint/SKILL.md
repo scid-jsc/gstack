@@ -376,6 +376,7 @@ When the user types `/sprint`, run this skill.
 - `/sprint review` — list tasks pending approval
 - `/sprint report` — generate sprint report
 - `/sprint dashboard` — project-level overview (all sprints, health, risks)
+- `/sprint dashboard --html` — same dashboard, exported as local HTML file and opened in browser
 
 ## Step 0: Load Odoo Config
 
@@ -1056,6 +1057,42 @@ PRs merged:                 18
 
 **Expected progress** = `(days_elapsed / sprint_duration) × 100`. If actual completion %
 is 20+ points below expected, flag the sprint as "Behind schedule" in the header.
+
+### HTML Export (`/sprint dashboard --html`)
+
+When `--html` is passed, take all the same data from Steps 1–4 above and generate
+a standalone HTML file with embedded CSS. No external dependencies — everything inline.
+
+Use the Write tool to create the file at `~/.gstack/dashboard.html`.
+
+The HTML dashboard should include:
+
+1. **Modern dark theme** — dark background (#1a1a2e), card-based layout, clean typography
+2. **All sections from the terminal dashboard** rendered as HTML:
+   - Sprint overview table with colored progress bars (green ≥80%, yellow ≥50%, red <50%)
+   - Velocity trend as horizontal bar chart (pure CSS, no JS library needed)
+   - Task pipeline as a kanban board (4 columns: New, In Progress, Review, Done)
+   - Task type distribution as colored horizontal bars
+   - Risks section with color-coded badges (🔴🟡🔵⏳)
+   - Pending approvals as a card list
+   - Cumulative stats in a summary row at the top
+3. **Clickable links** — Odoo task IDs link to `<ODOO_URL>/web#id=<ID>&model=project.task&view_type=form`,
+   GitHub issues link to their URL
+4. **Auto-refresh timestamp** in the footer: "Generated: Mar 23, 2026 14:30"
+5. **Responsive** — works on any screen width (flexbox/grid)
+
+After writing the file, open it:
+
+```bash
+# Linux
+xdg-open ~/.gstack/dashboard.html 2>/dev/null || \
+# macOS
+open ~/.gstack/dashboard.html 2>/dev/null || \
+echo "Dashboard saved to ~/.gstack/dashboard.html — open it in your browser"
+```
+
+Tell the user: "Dashboard exported to `~/.gstack/dashboard.html` and opened in your browser.
+Re-run `/sprint dashboard --html` anytime to refresh."
 
 ## Tone
 
