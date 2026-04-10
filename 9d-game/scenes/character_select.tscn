@@ -1,0 +1,95 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/character_select.gd" id="1"]
+
+[node name="CharacterSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.06, 0.04, 0.02, 1)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 15.0
+offset_right = 200.0
+offset_bottom = 50.0
+horizontal_alignment = 1
+text = "Chọn Môn Phái"
+
+[node name="HSplit" type="HSplitContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 60.0
+offset_bottom = -10.0
+offset_left = 10.0
+offset_right = -10.0
+
+[node name="Left" type="PanelContainer" parent="HSplit"]
+layout_mode = 2
+size_flags_stretch_ratio = 2.0
+
+[node name="Scroll" type="ScrollContainer" parent="HSplit/Left"]
+layout_mode = 2
+
+[node name="Grid" type="GridContainer" parent="HSplit/Left/Scroll"]
+layout_mode = 2
+columns = 4
+
+[node name="Right" type="VBoxContainer" parent="HSplit"]
+layout_mode = 2
+custom_minimum_size = Vector2(320, 0)
+
+[node name="InfoTitle" type="Label" parent="HSplit/Right"]
+layout_mode = 2
+text = "Thông Tin Môn Phái"
+horizontal_alignment = 1
+
+[node name="InfoLabel" type="RichTextLabel" parent="HSplit/Right"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 200)
+bbcode_enabled = true
+text = ""
+size_flags_vertical = 3
+
+[node name="SkillsLabel" type="RichTextLabel" parent="HSplit/Right"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 200)
+bbcode_enabled = true
+text = ""
+size_flags_vertical = 3
+
+[node name="Sep" type="HSeparator" parent="HSplit/Right"]
+layout_mode = 2
+
+[node name="NameTitle" type="Label" parent="HSplit/Right"]
+layout_mode = 2
+text = "Tên Nhân Vật:"
+
+[node name="NameInput" type="LineEdit" parent="HSplit/Right"]
+layout_mode = 2
+placeholder_text = "Nhập tên nhân vật..."
+max_length = 20
+
+[node name="BtnStart" type="Button" parent="HSplit/Right"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 45)
+text = "Bắt Đầu"
+
+[node name="BtnBack" type="Button" parent="HSplit/Right"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 35)
+text = "Quay Lại"

@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/npc.gd" id="1"]
+
+[sub_resource type="CapsuleMesh" id="mesh"]
+radius = 0.4
+height = 1.6
+
+[sub_resource type="CapsuleShape3D" id="shape"]
+radius = 0.4
+height = 1.6
+
+[sub_resource type="SphereShape3D" id="interact_shape"]
+radius = 5.0
+
+[node name="NPC" type="StaticBody3D" groups=["npcs"]]
+collision_layer = 8
+collision_mask = 0
+script = ExtResource("1")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+mesh = SubResource("mesh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("shape")
+
+[node name="NameLabel" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0, 0)
+billboard = 1
+font_size = 20
+modulate = Color(1, 0.84, 0, 1)
+text = "NPC"
+
+[node name="InteractArea" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 1
+
+[node name="InteractShape" type="CollisionShape3D" parent="InteractArea"]
+shape = SubResource("interact_shape")
