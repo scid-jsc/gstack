@@ -1,330 +1,330 @@
-# Lo trinh thang tien len CTO
+# Lộ trình thăng tiến lên CTO
 
-> Tu IT Manager (3 nam kinh nghiem, 33tr/thang) den CTO trong 5-7 nam
+> Từ IT Manager (3 năm kinh nghiệm, 33tr/tháng) đến CTO trong 5-7 năm
 
 ---
 
-## Tong quan vi tri hien tai
+## Tổng quan vị trí hiện tại
 
-| Thong tin | Chi tiet |
+| Thông tin | Chi tiết |
 |-----------|----------|
-| Vi tri hien tai | IT Manager |
-| Kinh nghiem | 3 nam |
-| Thu nhap | 33,000,000 VND/thang |
-| Muc tieu | CTO (Chief Technology Officer) |
-| Thoi gian du kien | 5-7 nam |
+| Vị trí hiện tại | IT Manager |
+| Kinh nghiệm | 3 năm |
+| Thu nhập | 33.000.000 VND/tháng |
+| Mục tiêu | CTO (Chief Technology Officer) |
+| Thời gian dự kiến | 5-7 năm |
 
 ---
 
-## Giai doan 1: Cung co nen tang IT Manager (0-12 thang)
+## Giai đoạn 1: Củng cố nền tảng IT Manager (0-12 tháng)
 
-### Muc tieu: Tro thanh IT Manager xuat sac, xay dung uy tin va tam anh huong
+### Mục tiêu: Trở thành IT Manager xuất sắc, xây dựng uy tín và tầm ảnh hưởng
 
-### 1.1 Ky nang ky thuat can nang cap
+### 1.1 Kỹ năng kỹ thuật cần nâng cấp
 
-- **Kien truc he thong (System Architecture)**
-  - Hoc thiet ke he thong phan tan (distributed systems)
-  - Nam vung microservices, event-driven architecture
-  - Hieu sau ve cloud architecture (AWS/GCP/Azure)
-  - Tai nguyen: "Designing Data-Intensive Applications" (Martin Kleppmann)
+- **Kiến trúc hệ thống (System Architecture)**
+  - Học thiết kế hệ thống phân tán (distributed systems)
+  - Nắm vững microservices, event-driven architecture
+  - Hiểu sâu về cloud architecture (AWS/GCP/Azure)
+  - Tài nguyên: "Designing Data-Intensive Applications" (Martin Kleppmann)
 
 - **DevOps & Platform Engineering**
-  - CI/CD pipelines nang cao (GitHub Actions, GitLab CI, Jenkins)
+  - CI/CD pipelines nâng cao (GitHub Actions, GitLab CI, Jenkins)
   - Infrastructure as Code (Terraform, Pulumi)
   - Container orchestration (Kubernetes)
   - Monitoring & Observability (Prometheus, Grafana, Datadog)
 
-- **Bao mat (Security)**
-  - OWASP Top 10 va cach phong chong
+- **Bảo mật (Security)**
+  - OWASP Top 10 và cách phòng chống
   - Security architecture & threat modeling
   - Compliance frameworks (ISO 27001, SOC 2)
 
-### 1.2 Ky nang quan ly can phat trien
+### 1.2 Kỹ năng quản lý cần phát triển
 
-- **Quan ly doi ngu**
-  - Chuyen tu "lam viec" sang "uy quyen va kiem soat"
-  - 1-on-1 meetings hieu qua voi thanh vien
-  - Xay dung quy trinh tuyen dung ky su
-  - Performance review va career development cho team
+- **Quản lý đội ngũ**
+  - Chuyển từ "tự làm" sang "uỷ quyền và kiểm soát"
+  - 1-on-1 meetings hiệu quả với từng thành viên
+  - Xây dựng quy trình tuyển dụng kỹ sư
+  - Performance review và career development cho team
 
-- **Quan ly du an**
-  - Agile/Scrum o cap do to chuc
-  - Uoc luong chi phi va thoi gian chinh xac
-  - Risk management va contingency planning
+- **Quản lý dự án**
+  - Agile/Scrum ở cấp độ tổ chức
+  - Ước lượng chi phí và thời gian chính xác
+  - Risk management và contingency planning
 
-### 1.3 Hanh dong cu the
+### 1.3 Hành động cụ thể
 
-| Hanh dong | Deadline | Do do thanh cong |
+| Hành động | Deadline | Đo độ thành công |
 |-----------|----------|------------------|
-| Hoan thanh AWS Solutions Architect Associate | Thang 3 | Dat chung chi |
-| Doc xong "Designing Data-Intensive Applications" | Thang 4 | Ghi chep va ap dung |
-| Thiet ke lai kien truc 1 he thong hien tai | Thang 6 | Giam 30% chi phi infra hoac tang 50% hieu nang |
-| Xay dung CI/CD pipeline hoan chinh cho team | Thang 8 | Deploy tu dong, zero-downtime |
-| Trinh bay tech talk noi bo 1 lan/thang | Hang thang | 12 buoi/nam |
+| Hoàn thành AWS Solutions Architect Associate | Tháng 3 | Đạt chứng chỉ |
+| Đọc xong "Designing Data-Intensive Applications" | Tháng 4 | Ghi chép và áp dụng |
+| Thiết kế lại kiến trúc 1 hệ thống hiện tại | Tháng 6 | Giảm 30% chi phí infra hoặc tăng 50% hiệu năng |
+| Xây dựng CI/CD pipeline hoàn chỉnh cho team | Tháng 8 | Deploy tự động, zero-downtime |
+| Trình bày tech talk nội bộ 1 lần/tháng | Hàng tháng | 12 buổi/năm |
 
-### 1.4 Muc luong ky vong
+### 1.4 Mức lương kỳ vọng
 
-- **Cuoi giai doan:** 38-45 trieu VND/thang (Senior IT Manager)
+- **Cuối giai đoạn:** 38-45 triệu VND/tháng (Senior IT Manager)
 
 ---
 
-## Giai doan 2: Chuyen sang Engineering Manager / Head of Engineering (12-30 thang)
+## Giai đoạn 2: Chuyển sang Engineering Manager / Head of Engineering (12-30 tháng)
 
-### Muc tieu: Quan ly nhieu doi, dinh hinh chien luoc ky thuat
+### Mục tiêu: Quản lý nhiều đội, định hình chiến lược kỹ thuật
 
-### 2.1 Ky nang can phat trien
+### 2.1 Kỹ năng cần phát triển
 
-- **Tu duy chien luoc cong nghe**
-  - Technology radar: danh gia va lua chon cong nghe
+- **Tư duy chiến lược công nghệ**
+  - Technology radar: đánh giá và lựa chọn công nghệ
   - Build vs Buy decisions
-  - Technical debt management va refactoring roadmap
-  - Lap ke hoach cong nghe 1-3 nam
+  - Technical debt management và refactoring roadmap
+  - Lập kế hoạch công nghệ 1-3 năm
 
-- **Quan ly da doi (Multi-team management)**
-  - Quan ly 2-4 doi cung luc (15-30 nguoi)
-  - Thiet ke to chuc doi ngu (team topology)
-  - Cross-team collaboration va dependency management
-  - Hiring pipeline: tuyen 5-10 ky su/nam
+- **Quản lý đa đội (Multi-team management)**
+  - Quản lý 2-4 đội cùng lúc (15-30 người)
+  - Thiết kế tổ chức đội ngũ (team topology)
+  - Cross-team collaboration và dependency management
+  - Hiring pipeline: tuyển 5-10 kỹ sư/năm
 
-- **Ky nang giao tiep cap cao**
-  - Trinh bay voi C-level ve chien luoc cong nghe
-  - Dich "ngon ngu ky thuat" sang "ngon ngu kinh doanh"
-  - Viet technical proposals va architecture decision records (ADR)
+- **Kỹ năng giao tiếp cấp cao**
+  - Trình bày với C-level về chiến lược công nghệ
+  - Dịch "ngôn ngữ kỹ thuật" sang "ngôn ngữ kinh doanh"
+  - Viết technical proposals và architecture decision records (ADR)
 
-### 2.2 Kinh nghiem can tich luy
+### 2.2 Kinh nghiệm cần tích luỹ
 
-- **Dan dat it nhat 1 du an lon** (migration, platform rewrite, hoac new product)
-- **Xay dung engineering culture**: code review standards, on-call rotation, postmortem process
-- **Quan ly ngan sach**: ngan sach infra, tooling, nhan su tu 1-5 ty VND/nam
-- **Tuyen dung va dao tao**: xay dung doi ngu tu 10 len 20-30 nguoi
+- **Dẫn dắt ít nhất 1 dự án lớn** (migration, platform rewrite, hoặc new product)
+- **Xây dựng engineering culture**: code review standards, on-call rotation, postmortem process
+- **Quản lý ngân sách**: ngân sách infra, tooling, nhân sự từ 1-5 tỷ VND/năm
+- **Tuyển dụng và đào tạo**: xây dựng đội ngũ từ 10 lên 20-30 người
 
-### 2.3 Chung chi va hoc tap
+### 2.3 Chứng chỉ và học tập
 
-| Chung chi / Khoa hoc | Muc dich |
+| Chứng chỉ / Khoá học | Mục đích |
 |----------------------|----------|
-| AWS Solutions Architect Professional | Chung minh nang luc kien truc cloud |
-| Khoa hoc "Engineering Management" (Coursera/Udemy) | Framework quan ly ky thuat |
-| Doc "An Elegant Puzzle" (Will Larson) | Quan ly doi engineering |
-| Doc "The Manager's Path" (Camille Fournier) | Lo trinh tu IC den CTO |
-| Doc "Staff Engineer" (Will Larson) | Hieu technical leadership |
+| AWS Solutions Architect Professional | Chứng minh năng lực kiến trúc cloud |
+| Khoá học "Engineering Management" (Coursera/Udemy) | Framework quản lý kỹ thuật |
+| Đọc "An Elegant Puzzle" (Will Larson) | Quản lý đội engineering |
+| Đọc "The Manager's Path" (Camille Fournier) | Lộ trình từ IC đến CTO |
+| Đọc "Staff Engineer" (Will Larson) | Hiểu technical leadership |
 
-### 2.4 Xay dung thuong hieu ca nhan
+### 2.4 Xây dựng thương hiệu cá nhân
 
-- Viet blog ky thuat 2 bai/thang (Medium, dev.to, hoac blog ca nhan)
-- Tham gia cong dong tech (meetup, conference)
+- Viết blog kỹ thuật 2 bài/tháng (Medium, dev.to, hoặc blog cá nhân)
+- Tham gia cộng đồng tech (meetup, conference)
 - Mentor cho 2-3 junior/mid developers
-- Contribute open source (du chi 1-2 PR/thang)
-- Xay dung LinkedIn profile chuyen nghiep
+- Contribute open source (dù chỉ 1-2 PR/tháng)
+- Xây dựng LinkedIn profile chuyên nghiệp
 
-### 2.5 Muc luong ky vong
+### 2.5 Mức lương kỳ vọng
 
-- **Engineering Manager:** 45-60 trieu VND/thang
-- **Head of Engineering:** 55-80 trieu VND/thang
+- **Engineering Manager:** 45-60 triệu VND/tháng
+- **Head of Engineering:** 55-80 triệu VND/tháng
 
 ---
 
-## Giai doan 3: Len VP of Engineering / Director of Engineering (30-48 thang)
+## Giai đoạn 3: Lên VP of Engineering / Director of Engineering (30-48 tháng)
 
-### Muc tieu: Chiu trach nhiem toan bo bo phan ky thuat, anh huong den chien luoc cong ty
+### Mục tiêu: Chịu trách nhiệm toàn bộ bộ phận kỹ thuật, ảnh hưởng đến chiến lược công ty
 
-### 3.1 Ky nang can co
+### 3.1 Kỹ năng cần có
 
-- **Chien luoc kinh doanh va cong nghe**
-  - OKR/KPI cho bo phan engineering
-  - Roadmap san pham tu goc do ky thuat
-  - Due diligence cho M&A (mua lai cong nghe)
-  - Vendor management va partnership
+- **Chiến lược kinh doanh và công nghệ**
+  - OKR/KPI cho bộ phận engineering
+  - Roadmap sản phẩm từ góc độ kỹ thuật
+  - Due diligence cho M&A (mua lại công nghệ)
+  - Vendor management và partnership
 
-- **Quan ly to chuc lon**
-  - Quan ly 50-100+ ky su qua nhieu cap (managers of managers)
-  - Thiet ke cau truc to chuc phu hop voi chien luoc
-  - Engineering levels va career ladder
-  - Compensation philosophy va retention strategy
+- **Quản lý tổ chức lớn**
+  - Quản lý 50-100+ kỹ sư qua nhiều cấp (managers of managers)
+  - Thiết kế cấu trúc tổ chức phù hợp với chiến lược
+  - Engineering levels và career ladder
+  - Compensation philosophy và retention strategy
 
-- **Tai chinh va KPI**
-  - P&L awareness: hieu bao cao tai chinh
-  - ROI cua cac du an cong nghe
-  - Budget planning 5-20 ty VND/nam
+- **Tài chính và KPI**
+  - P&L awareness: hiểu báo cáo tài chính
+  - ROI của các dự án công nghệ
+  - Budget planning 5-20 tỷ VND/năm
   - Cost optimization (cloud spend, licensing, headcount)
 
-### 3.2 Kinh nghiem then chot
+### 3.2 Kinh nghiệm then chốt
 
-| Kinh nghiem | Mo ta | Tai sao quan trong |
+| Kinh nghiệm | Mô tả | Tại sao quan trọng |
 |-------------|-------|--------------------|
-| Dan dat digital transformation | Chuyen doi 1 he thong legacy sang modern stack | Chung minh kha nang thay doi lon |
-| Scale he thong | Tu 10K len 100K+ users | Chung minh kha nang ky thuat o scale |
-| Xay dung doi tu 0 | Tuyen va xay dung 1 doi moi hoan toan | Chung minh leadership |
-| Xu ly su co nghiem trong | On-call, postmortem, root cause cho incident lon | Chung minh kha nang chiu ap luc |
-| Hop tac voi CEO/Board | Trinh bay chien luoc cong nghe cho board | Chung minh business acumen |
+| Dẫn dắt digital transformation | Chuyển đổi 1 hệ thống legacy sang modern stack | Chứng minh khả năng thay đổi lớn |
+| Scale hệ thống | Từ 10K lên 100K+ users | Chứng minh khả năng kỹ thuật ở scale |
+| Xây dựng đội từ 0 | Tuyển và xây dựng 1 đội mới hoàn toàn | Chứng minh leadership |
+| Xử lý sự cố nghiêm trọng | On-call, postmortem, root cause cho incident lớn | Chứng minh khả năng chịu áp lực |
+| Hợp tác với CEO/Board | Trình bày chiến lược công nghệ cho board | Chứng minh business acumen |
 
-### 3.3 Muc luong ky vong
+### 3.3 Mức lương kỳ vọng
 
-- **VP of Engineering:** 70-120 trieu VND/thang
-- **Director of Engineering (cong ty lon):** 80-150 trieu VND/thang
-- **Co the co equity/stock options**
+- **VP of Engineering:** 70-120 triệu VND/tháng
+- **Director of Engineering (công ty lớn):** 80-150 triệu VND/tháng
+- **Có thể có equity/stock options**
 
 ---
 
-## Giai doan 4: Tro thanh CTO (48-84 thang)
+## Giai đoạn 4: Trở thành CTO (48-84 tháng)
 
-### Muc tieu: Chiu trach nhiem toan bo chien luoc cong nghe cua cong ty
+### Mục tiêu: Chịu trách nhiệm toàn bộ chiến lược công nghệ của công ty
 
-### 4.1 Vai tro CTO khac gi VP Engineering?
+### 4.1 Vai trò CTO khác gì VP Engineering?
 
-| Khia canh | VP Engineering | CTO |
+| Khía cạnh | VP Engineering | CTO |
 |-----------|---------------|-----|
-| Focus chinh | People & Process | Technology & Vision |
-| Trach nhiem | Engineering output | Technology strategy |
-| Giao tiep | Internal teams | Board, investors, customers, media |
+| Focus chính | People & Process | Technology & Vision |
+| Trách nhiệm | Engineering output | Technology strategy |
+| Giao tiếp | Internal teams | Board, investors, customers, media |
 | KPI | Velocity, quality, retention | Innovation, competitive advantage, tech ROI |
-| Tam nhin | 1-2 nam | 3-5 nam |
+| Tầm nhìn | 1-2 năm | 3-5 năm |
 
-### 4.2 Ky nang CTO-level
+### 4.2 Kỹ năng CTO-level
 
 - **Technology Vision**
-  - Dinh huong cong nghe 3-5 nam cho cong ty
-  - Danh gia AI/ML, blockchain, IoT va cac xu huong moi
-  - Patent va so huu tri tue
+  - Định hướng công nghệ 3-5 năm cho công ty
+  - Đánh giá AI/ML, blockchain, IoT và các xu hướng mới
+  - Patent và sở hữu trí tuệ
   - R&D strategy
 
 - **Business Leadership**
-  - Tham gia board meetings va investor relations
+  - Tham gia board meetings và investor relations
   - Technology due diligence cho fundraising
-  - Strategic partnerships (cong nghe)
-  - Go-to-market tu goc do ky thuat
+  - Strategic partnerships (công nghệ)
+  - Go-to-market từ góc độ kỹ thuật
 
 - **Thought Leadership**
-  - Noi chuyen tai conference lon
-  - Dai dien cong ty ve mat cong nghe
-  - Xay dung employer brand cho engineering
+  - Nói chuyện tại conference lớn
+  - Đại diện công ty về mặt công nghệ
+  - Xây dựng employer brand cho engineering
 
-### 4.3 Con duong den CTO
+### 4.3 Con đường đến CTO
 
-**Con duong 1: Thang tien noi bo (kho hon nhung on dinh)**
-- Chung minh gia tri qua nhieu nam
-- Can cong ty co quy mo du lon va CEO san sang trao quyen
-- Thoi gian: 5-7 nam
+**Con đường 1: Thăng tiến nội bộ (khó hơn nhưng ổn định)**
+- Chứng minh giá trị qua nhiều năm
+- Cần công ty có quy mô đủ lớn và CEO sẵn sàng trao quyền
+- Thời gian: 5-7 năm
 
-**Con duong 2: CTO tai startup (nhanh hon, rui ro cao hon)**
-- Gia nhap startup giai doan seed/Series A lam Co-founder/CTO
-- Hoac duoc tuyen lam CTO cho startup dang scale
-- Thoi gian: 2-4 nam nhung thu nhap co dinh co the thap hon
-- Bu lai bang equity co gia tri lon neu startup thanh cong
+**Con đường 2: CTO tại startup (nhanh hơn, rủi ro cao hơn)**
+- Gia nhập startup giai đoạn seed/Series A làm Co-founder/CTO
+- Hoặc được tuyển làm CTO cho startup đang scale
+- Thời gian: 2-4 năm nhưng thu nhập cố định có thể thấp hơn
+- Bù lại bằng equity có giá trị lớn nếu startup thành công
 
-**Con duong 3: Ket hop (duoc khuyen nghi)**
-- Xay dung kinh nghiem va uy tin o cong ty hien tai (2-3 nam)
-- Nhay sang vi tri VP Eng / CTO o cong ty moi (khi da du uy tin)
-- Thoi gian: 3-5 nam
+**Con đường 3: Kết hợp (được khuyến nghị)**
+- Xây dựng kinh nghiệm và uy tín ở công ty hiện tại (2-3 năm)
+- Nhảy sang vị trí VP Eng / CTO ở công ty mới (khi đã đủ uy tín)
+- Thời gian: 3-5 năm
 
-### 4.4 Muc luong ky vong
+### 4.4 Mức lương kỳ vọng
 
-- **CTO startup nho (< 50 nguoi):** 60-100 trieu + equity
-- **CTO cong ty vua (50-500 nguoi):** 100-200 trieu + bonus
-- **CTO cong ty lon (500+ nguoi):** 150-400+ trieu + equity/bonus
-- **CTO unicorn/IPO:** 300-800+ trieu (bao gom equity)
+- **CTO startup nhỏ (< 50 người):** 60-100 triệu + equity
+- **CTO công ty vừa (50-500 người):** 100-200 triệu + bonus
+- **CTO công ty lớn (500+ người):** 150-400+ triệu + equity/bonus
+- **CTO unicorn/IPO:** 300-800+ triệu (bao gồm equity)
 
 ---
 
-## Lo trinh hoc tap tong the
+## Lộ trình học tập tổng thể
 
-### Sach bat buoc doc (theo thu tu uu tien)
+### Sách bắt buộc đọc (theo thứ tự ưu tiên)
 
-| # | Sach | Tac gia | Giai doan |
+| # | Sách | Tác giả | Giai đoạn |
 |---|------|---------|-----------|
-| 1 | The Manager's Path | Camille Fournier | GD 1 |
-| 2 | Designing Data-Intensive Applications | Martin Kleppmann | GD 1 |
-| 3 | An Elegant Puzzle | Will Larson | GD 2 |
-| 4 | Accelerate | Nicole Forsgren et al. | GD 2 |
-| 5 | The Phoenix Project | Gene Kim et al. | GD 2 |
-| 6 | Staff Engineer | Will Larson | GD 2-3 |
-| 7 | High Output Management | Andy Grove | GD 3 |
-| 8 | The Hard Thing About Hard Things | Ben Horowitz | GD 3-4 |
-| 9 | Measure What Matters (OKR) | John Doerr | GD 3-4 |
-| 10 | The Innovator's Dilemma | Clayton Christensen | GD 4 |
+| 1 | The Manager's Path | Camille Fournier | GĐ 1 |
+| 2 | Designing Data-Intensive Applications | Martin Kleppmann | GĐ 1 |
+| 3 | An Elegant Puzzle | Will Larson | GĐ 2 |
+| 4 | Accelerate | Nicole Forsgren et al. | GĐ 2 |
+| 5 | The Phoenix Project | Gene Kim et al. | GĐ 2 |
+| 6 | Staff Engineer | Will Larson | GĐ 2-3 |
+| 7 | High Output Management | Andy Grove | GĐ 3 |
+| 8 | The Hard Thing About Hard Things | Ben Horowitz | GĐ 3-4 |
+| 9 | Measure What Matters (OKR) | John Doerr | GĐ 3-4 |
+| 10 | The Innovator's Dilemma | Clayton Christensen | GĐ 4 |
 
-### Chung chi ky thuat
+### Chứng chỉ kỹ thuật
 
-| Chung chi | Thoi diem | Chi phi uoc tinh |
+| Chứng chỉ | Thời điểm | Chi phí ước tính |
 |-----------|-----------|------------------|
-| AWS Solutions Architect Associate | Thang 6 | ~4 trieu |
-| AWS Solutions Architect Professional | Thang 18 | ~4 trieu |
-| Kubernetes (CKA) | Thang 24 | ~5 trieu |
-| Google Cloud Professional Architect (optional) | Thang 36 | ~5 trieu |
+| AWS Solutions Architect Associate | Tháng 6 | ~4 triệu |
+| AWS Solutions Architect Professional | Tháng 18 | ~4 triệu |
+| Kubernetes (CKA) | Tháng 24 | ~5 triệu |
+| Google Cloud Professional Architect (tuỳ chọn) | Tháng 36 | ~5 triệu |
 
-### Ky nang mem (soft skills) - Can tap luyen lien tuc
+### Kỹ năng mềm (soft skills) - Cần tập luyện liên tục
 
-1. **Public speaking**: Tham gia Toastmasters hoac tech talks
-2. **Negotiation**: Doc "Never Split the Difference" (Chris Voss)
-3. **Writing**: Viet blog, RFC, ADR thuong xuyen
+1. **Public speaking**: Tham gia Toastmasters hoặc tech talks
+2. **Đàm phán**: Đọc "Never Split the Difference" (Chris Voss)
+3. **Viết lách**: Viết blog, RFC, ADR thường xuyên
 4. **Networking**: Tham gia CTO meetup, tech community
-5. **Tieng Anh**: IELTS 7.0+ hoac tuong duong (bat buoc cho CTO)
+5. **Tiếng Anh**: IELTS 7.0+ hoặc tương đương (bắt buộc cho CTO)
 
 ---
 
-## Timeline tong hop
+## Timeline tổng hợp
 
 ```
-Nam 0 (Hien tai)
-|-- IT Manager, 33tr/thang
-|-- 3 nam kinh nghiem
-|
-v
-Nam 1 (Giai doan 1)
-|-- Senior IT Manager
-|-- 38-45tr/thang
-|-- AWS SA Associate, doc 3-4 sach, tech talks noi bo
-|
-v
-Nam 2-2.5 (Giai doan 2)
-|-- Engineering Manager
-|-- 45-60tr/thang
-|-- Quan ly 2-3 doi, dan dat 1 du an lon
-|
-v
-Nam 2.5-4 (Giai doan 2-3)
-|-- Head of Engineering / VP Engineering
-|-- 70-120tr/thang
-|-- Quan ly 30-50+ nguoi, budget 5-20 ty
-|
-v
-Nam 5-7 (Giai doan 4)
-|-- CTO
-|-- 100-400+ trieu/thang
-|-- Technology vision, board-level leadership
+Năm 0 (Hiện tại)
+├── IT Manager, 33tr/tháng
+├── 3 năm kinh nghiệm
+│
+▼
+Năm 1 (Giai đoạn 1)
+├── Senior IT Manager
+├── 38-45tr/tháng
+├── AWS SA Associate, đọc 3-4 sách, tech talks nội bộ
+│
+▼
+Năm 2-2.5 (Giai đoạn 2)
+├── Engineering Manager
+├── 45-60tr/tháng
+├── Quản lý 2-3 đội, dẫn dắt 1 dự án lớn
+│
+▼
+Năm 2.5-4 (Giai đoạn 2-3)
+├── Head of Engineering / VP Engineering
+├── 70-120tr/tháng
+├── Quản lý 30-50+ người, budget 5-20 tỷ
+│
+▼
+Năm 5-7 (Giai đoạn 4)
+├── CTO
+├── 100-400+ triệu/tháng
+└── Technology vision, board-level leadership
 ```
 
 ---
 
-## Nhung sai lam can tranh
+## Những sai lầm cần tránh
 
-### 1. Chi tap trung vao ky thuat, bo qua business
-CTO khong phai la "senior developer gioi nhat". CTO la nguoi ket noi cong nghe voi kinh doanh. Bat dau hoc ve tai chinh, marketing, va chien luoc kinh doanh tu bay gio.
+### 1. Chỉ tập trung vào kỹ thuật, bỏ qua business
+CTO không phải là "senior developer giỏi nhất". CTO là người kết nối công nghệ với kinh doanh. Bắt đầu học về tài chính, marketing, và chiến lược kinh doanh từ bây giờ.
 
-### 2. Khong xay dung mang luoi (network)
-80% co hoi CTO den tu moi quan he, khong phai tu ung tuyen. Tham gia community, mentor nguoi khac, va xay dung uy tin trong nganh.
+### 2. Không xây dựng mạng lưới (network)
+80% cơ hội CTO đến từ mối quan hệ, không phải từ ứng tuyển. Tham gia community, mentor người khác, và xây dựng uy tín trong ngành.
 
-### 3. Khong chap nhan rui ro
-Neu chi o lai 1 cong ty va cho thang tien, co the mat 10+ nam. Can san sang nhay viec hoac gia nhap startup khi co co hoi phu hop.
+### 3. Không chấp nhận rủi ro
+Nếu chỉ ở lại 1 công ty và chờ thăng tiến, có thể mất 10+ năm. Cần sẵn sàng nhảy việc hoặc gia nhập startup khi có cơ hội phù hợp.
 
-### 4. Khong co "big win"
-Moi CTO deu co it nhat 1-2 thanh tuu lon dinh hinh su nghiep. Tim kiem va dan dat nhung du an co tam anh huong lon (migration, scale, new product).
+### 4. Không có "big win"
+Mỗi CTO đều có ít nhất 1-2 thành tựu lớn định hình sự nghiệp. Tìm kiếm và dẫn dắt những dự án có tầm ảnh hưởng lớn (migration, scale, new product).
 
-### 5. Quan ly "len" kem
-Khong chi quan ly team xuong duoi. Hoc cach quan ly len (manage up): giao tiep hieu qua voi CEO, board, va cac C-level khac.
+### 5. Quản lý "lên" kém
+Không chỉ quản lý team xuống dưới. Học cách quản lý lên (manage up): giao tiếp hiệu quả với CEO, board, và các C-level khác.
 
 ---
 
-## Hanh dong ngay bay gio (30 ngay dau tien)
+## Hành động ngay bây giờ (30 ngày đầu tiên)
 
-- [ ] Danh gia SWOT ban than: diem manh, diem yeu, co hoi, thach thuc
-- [ ] Dat mua va bat dau doc "The Manager's Path"
-- [ ] Dang ky khoa AWS Solutions Architect Associate
-- [ ] Len ke hoach 1-on-1 voi moi thanh vien trong team
-- [ ] Bat dau viet blog ky thuat (bai dau tien)
-- [ ] Tim 1 mentor la VP Eng hoac CTO (qua LinkedIn, community)
+- [ ] Đánh giá SWOT bản thân: điểm mạnh, điểm yếu, cơ hội, thách thức
+- [ ] Đặt mua và bắt đầu đọc "The Manager's Path"
+- [ ] Đăng ký khoá AWS Solutions Architect Associate
+- [ ] Lên kế hoạch 1-on-1 với mỗi thành viên trong team
+- [ ] Bắt đầu viết blog kỹ thuật (bài đầu tiên)
+- [ ] Tìm 1 mentor là VP Eng hoặc CTO (qua LinkedIn, community)
 - [ ] Tham gia 1 tech community/meetup
-- [ ] Xac dinh 1 du an co the dan dat de tao "big win"
+- [ ] Xác định 1 dự án có thể dẫn dắt để tạo "big win"
 
 ---
 
-*Lo trinh nay duoc thiet ke rieng cho ban dua tren vi tri IT Manager voi 3 nam kinh nghiem va muc luong 33tr/thang tai thi truong Viet Nam. Thoi gian va muc luong co the thay doi tuy theo nganh, quy mo cong ty, va nang luc ca nhan.*
+*Lộ trình này được thiết kế riêng cho bạn dựa trên vị trí IT Manager với 3 năm kinh nghiệm và mức lương 33tr/tháng tại thị trường Việt Nam. Thời gian và mức lương có thể thay đổi tuỳ theo ngành, quy mô công ty, và năng lực cá nhân.*
