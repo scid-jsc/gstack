@@ -327,4 +327,256 @@ Không chỉ quản lý team xuống dưới. Học cách quản lý lên (manag
 
 ---
 
+## Bảng tự đánh giá năng lực (Self-Assessment)
+
+Chấm điểm bản thân từ 1-5 cho mỗi mục. Mục nào dưới 3 là cần ưu tiên cải thiện.
+
+### Kỹ thuật
+
+| Năng lực | 1 (Yếu) | 3 (Trung bình) | 5 (Xuất sắc) | Điểm |
+|----------|---------|-----------------|---------------|------|
+| Kiến trúc hệ thống | Chưa thiết kế hệ thống nào | Thiết kế được hệ thống nhỏ-vừa | Thiết kế hệ thống phức tạp, phân tán | ___ |
+| Cloud & Infrastructure | Biết dùng cơ bản | Triển khai được production workload | Tối ưu chi phí, multi-region, DR | ___ |
+| DevOps & CI/CD | Dùng CI/CD có sẵn | Tự xây dựng pipeline | Thiết kế platform engineering cho cả org | ___ |
+| Bảo mật | Biết OWASP cơ bản | Triển khai security practices cho team | Xây dựng security framework cho org | ___ |
+| Data & Analytics | Biết SQL cơ bản | Thiết kế data pipeline | Xây dựng data strategy cho công ty | ___ |
+
+### Quản lý
+
+| Năng lực | 1 (Yếu) | 3 (Trung bình) | 5 (Xuất sắc) | Điểm |
+|----------|---------|-----------------|---------------|------|
+| Tuyển dụng | Chưa tuyển ai | Tuyển được IC tốt | Xây dựng được hiring pipeline bài bản | ___ |
+| Quản lý hiệu suất | Chưa làm review | Làm review định kỳ | Có framework performance rõ ràng, PIP khi cần | ___ |
+| Uỷ quyền | Tự làm hết | Uỷ quyền được task nhỏ | Uỷ quyền cả dự án, chỉ kiểm soát kết quả | ___ |
+| Coaching & Mentoring | Chưa mentor ai | Mentor 1-2 người | Xây dựng văn hoá mentoring cho cả team | ___ |
+| Xử lý xung đột | Tránh xung đột | Giải quyết được khi buộc phải | Chủ động phát hiện và giải quyết sớm | ___ |
+
+### Chiến lược & Kinh doanh
+
+| Năng lực | 1 (Yếu) | 3 (Trung bình) | 5 (Xuất sắc) | Điểm |
+|----------|---------|-----------------|---------------|------|
+| Hiểu biết tài chính | Không hiểu P&L | Đọc được báo cáo tài chính | Lập và quản lý budget, tính ROI | ___ |
+| Tư duy sản phẩm | Chỉ code theo spec | Đóng góp ý kiến cho product | Đề xuất tính năng dựa trên dữ liệu | ___ |
+| Giao tiếp với C-level | Chưa bao giờ | Thỉnh thoảng báo cáo | Thường xuyên, tự tin trình bày chiến lược | ___ |
+| Quản lý vendor/partner | Chưa làm | Quản lý 1-2 vendor | Đàm phán hợp đồng lớn, xây dựng partnership | ___ |
+| Tầm nhìn công nghệ | Theo trend | Đánh giá được tech cho team | Định hướng tech strategy cho cả org | ___ |
+
+**Cách dùng:** Tổng điểm tối đa = 75. Dưới 30 → cần 5-7 năm. 30-50 → cần 3-5 năm. Trên 50 → có thể đạt CTO trong 2-3 năm.
+
+---
+
+## Thói quen hàng tuần của người hướng tới CTO
+
+### Thói quen hàng ngày (30 phút)
+- **15 phút đọc**: tin tức công nghệ (TechCrunch, Hacker News, InfoQ)
+- **15 phút viết**: ghi chép học được gì, ý tưởng, quan sát
+
+### Thói quen hàng tuần (3-4 giờ)
+
+| Ngày | Hoạt động | Thời lượng |
+|------|-----------|------------|
+| Thứ 2 | Lên kế hoạch tuần, review OKR cá nhân | 30 phút |
+| Thứ 3 | 1-on-1 với thành viên team | 1-2 giờ |
+| Thứ 4 | Học kỹ thuật mới (khoá học, lab, side project) | 1 giờ |
+| Thứ 5 | Networking: coffee chat, community, LinkedIn | 30 phút |
+| Thứ 6 | Viết: blog, RFC, hoặc tài liệu nội bộ | 30 phút |
+| Cuối tuần | Đọc sách (ít nhất 30 trang) | 1 giờ |
+
+### Thói quen hàng tháng
+- 1 tech talk nội bộ hoặc ngoại bộ
+- 1 buổi retrospective cho bản thân (mình đã tiến bộ gì?)
+- 1 buổi coffee chat với người ở level cao hơn
+- Review lại lộ trình và điều chỉnh nếu cần
+
+---
+
+## Chiến lược đàm phán lương theo từng giai đoạn
+
+### Nguyên tắc chung
+1. **Không bao giờ nói lương hiện tại trước.** Hỏi range của vị trí trước.
+2. **Đàm phán bằng giá trị, không bằng nhu cầu.** "Tôi đã giúp giảm 30% chi phí infra" chứ không phải "tôi cần thêm tiền".
+3. **Luôn có BATNA** (Best Alternative To Negotiated Agreement) — có offer khác để so sánh.
+
+### Giai đoạn 1: IT Manager → Senior IT Manager (33tr → 38-45tr)
+
+| Thời điểm đàm phán | Cách tiếp cận |
+|---------------------|---------------|
+| Review hàng năm | Chuẩn bị danh sách thành tựu cụ thể với số liệu |
+| Sau dự án lớn | Đàm phán ngay khi vừa hoàn thành, impact còn "nóng" |
+| Khi có offer ngoài | Không dùng để doạ, mà dùng để tham khảo range thị trường |
+
+**Kịch bản mẫu:**
+> "Trong 6 tháng qua, tôi đã xây dựng CI/CD pipeline giúp team deploy nhanh hơn 3x và giảm bug production 40%. Tôi muốn thảo luận về mức compensation phản ánh đúng đóng góp này."
+
+### Giai đoạn 2: Engineering Manager (45-60tr)
+- Đàm phán cả package: base + bonus + equity (nếu có)
+- Nhấn mạnh khả năng quản lý đa đội và impact lên tổ chức
+- Yêu cầu budget đào tạo (conference, khoá học) như một phần package
+
+### Giai đoạn 3-4: VP Eng / CTO (70tr+)
+- Đàm phán equity/stock options là bắt buộc
+- Yêu cầu rõ scope of authority (quyền quyết định tuyển dụng, budget, tech stack)
+- Thảo luận về title progression và board seat (nếu CTO)
+
+---
+
+## Xây dựng portfolio "CTO-ready"
+
+### Dự án cá nhân nên xây dựng
+
+| Dự án | Mục đích chứng minh | Thời gian |
+|-------|---------------------|-----------|
+| Blog kỹ thuật cá nhân | Thought leadership, khả năng viết | Liên tục |
+| Open source tool nhỏ | Kỹ năng code, community building | 2-3 tháng |
+| System design case studies | Tư duy kiến trúc | Viết 1 bài/tháng |
+| Side project với scale thật | Kinh nghiệm vận hành production | 3-6 tháng |
+| Tech talk recordings | Public speaking | 1 talk/quý |
+
+### Thành tựu cần "sưu tầm" cho CV
+
+Mỗi giai đoạn cần ít nhất 2-3 bullet points dạng:
+- "Dẫn dắt migration từ monolith sang microservices, giảm 40% thời gian deploy"
+- "Xây dựng đội engineering từ 5 lên 25 người trong 18 tháng"
+- "Giảm 35% chi phí cloud ($X/năm) thông qua tối ưu kiến trúc"
+- "Thiết kế hệ thống xử lý 10K requests/giây với 99.9% uptime"
+- "Triển khai security framework giúp đạt chứng nhận ISO 27001"
+
+### Xây dựng "CTO narrative"
+
+Mỗi CTO có một "câu chuyện" xuyên suốt sự nghiệp. Bắt đầu xây dựng narrative từ bây giờ:
+
+**Ví dụ narrative tốt:**
+> "Tôi là người chuyển đổi — tôi đã biến 3 tổ chức IT truyền thống thành engineering team hiện đại, mỗi lần đều tăng tốc độ delivery 2-3x và giảm chi phí vận hành 30-40%."
+
+**Narrative của bạn nên trả lời:**
+1. Bạn giỏi nhất ở điều gì? (chuyên môn sâu)
+2. Bạn đã tạo impact lớn nhất ở đâu? (thành tựu)
+3. Tại sao công ty nên tin tưởng giao cho bạn quyết định công nghệ? (uy tín)
+
+---
+
+## Cộng đồng và tài nguyên tại Việt Nam
+
+### Cộng đồng nên tham gia
+
+| Cộng đồng | Nền tảng | Giá trị |
+|-----------|----------|---------|
+| Vietnam Engineering Manager | Facebook Group | Chia sẻ kinh nghiệm quản lý |
+| VNHACKER | Discord/Telegram | Kỹ thuật chuyên sâu |
+| GDG (Google Developer Group) Vietnam | Meetup | Networking, tech talks |
+| AWS User Group Vietnam | Meetup | Cloud architecture |
+| DevOps Vietnam | Facebook/Telegram | CI/CD, infrastructure |
+| CTO Vietnam (nếu có) | LinkedIn | Networking cấp cao |
+| Startup Vietnam Network | Facebook/LinkedIn | Cơ hội CTO tại startup |
+
+### Conference nên tham dự
+
+| Conference | Địa điểm | Tần suất |
+|------------|----------|----------|
+| Google I/O Extended Vietnam | HCM/HN | Hàng năm |
+| AWS Summit Southeast Asia | Singapore/Online | Hàng năm |
+| Tech in Asia | Singapore | Hàng năm |
+| Local tech meetups | HCM/HN | Hàng tháng |
+| KubeCon (online) | Online | Hàng năm |
+
+### Mentor và coaching
+- **Tìm mentor qua**: LinkedIn, ADPList (miễn phí), MentorCruise
+- **Tiêu chí chọn mentor**: đang hoặc đã làm VP Eng/CTO, cùng ngành hoặc cùng quy mô công ty
+- **Tần suất gặp mentor**: 1-2 lần/tháng, mỗi lần 30-45 phút
+- **Chuẩn bị trước mỗi buổi**: 2-3 câu hỏi cụ thể, cập nhật tiến độ
+
+---
+
+## Kịch bản phỏng vấn CTO
+
+### Câu hỏi thường gặp khi phỏng vấn VP Eng / CTO
+
+**Về kỹ thuật:**
+1. "Hãy thiết kế hệ thống xử lý 1 triệu users đồng thời" → Cần hiểu load balancing, caching, database sharding, CDN
+2. "Khi nào nên dùng microservices vs monolith?" → Trả lời dựa trên team size, complexity, và deployment needs
+3. "Bạn đánh giá và lựa chọn công nghệ mới như thế nào?" → Framework: ThoughtWorks Tech Radar, POC, pilot team
+
+**Về quản lý:**
+4. "Bạn xử lý thế nào khi 1 engineer giỏi nhưng toxic?" → Feedback rõ ràng, PIP, cuối cùng là sa thải nếu không thay đổi
+5. "Làm sao scale đội từ 10 lên 50 người?" → Hiring pipeline, onboarding process, team topology, engineering levels
+6. "Khi CEO muốn ship nhanh nhưng tech debt quá nhiều?" → Quantify tech debt thành business risk, đề xuất "20% rule"
+
+**Về chiến lược:**
+7. "Tầm nhìn công nghệ 3 năm tới cho công ty này?" → Nghiên cứu công ty trước, đưa ra 3-4 trụ cột chiến lược
+8. "Làm sao đo lường hiệu quả của engineering team?" → DORA metrics, SPACE framework, business impact
+9. "Budget công nghệ nên chiếm bao nhiêu % doanh thu?" → Tuỳ ngành: tech company 15-25%, non-tech 5-10%
+
+### Bài tập chuẩn bị
+- Mỗi tuần chọn 1 câu hỏi trên, viết câu trả lời chi tiết (500-1000 từ)
+- Nhờ mentor hoặc đồng nghiệp mock interview
+- Quay video bản thân trả lời và xem lại
+
+---
+
+## Các loại CTO và nên nhắm đến loại nào
+
+### 4 archetype của CTO
+
+| Loại | Mô tả | Phù hợp khi |
+|------|--------|-------------|
+| **CTO Builder** | Xây dựng sản phẩm và đội từ đầu | Startup giai đoạn đầu, thích hands-on code |
+| **CTO Scaler** | Scale hệ thống và tổ chức từ nhỏ lên lớn | Startup Series A-C, giỏi process và hiring |
+| **CTO Transformer** | Chuyển đổi tổ chức IT truyền thống sang hiện đại | Enterprise, digital transformation |
+| **CTO Visionary** | Định hướng công nghệ dài hạn, R&D | Công ty lớn, product-led |
+
+### Với background IT Manager 3 năm, bạn nên nhắm:
+
+**Ngắn hạn (2-3 năm):** CTO Builder tại startup
+- Ưu điểm: nhanh nhất để có title CTO, học được rất nhiều
+- Rủi ro: startup thất bại, lương có thể thấp hơn hiện tại
+- Điều kiện: cần kỹ năng code tốt, chấp nhận rủi ro
+
+**Trung hạn (3-5 năm):** CTO Transformer tại công ty vừa
+- Ưu điểm: phù hợp với background IT Manager, ổn định hơn
+- Rủi ro: chính trị nội bộ, legacy systems phức tạp
+- Điều kiện: cần kinh nghiệm transformation thành công
+
+**Dài hạn (5-7 năm):** CTO Scaler tại công ty đang tăng trưởng
+- Ưu điểm: lương cao nhất, equity giá trị lớn
+- Rủi ro: cạnh tranh khốc liệt cho vị trí
+- Điều kiện: cần track record scale đội và hệ thống
+
+---
+
+## Checklist đánh giá hàng quý
+
+Mỗi 3 tháng, ngồi lại 1 giờ để review:
+
+### Kỹ thuật
+- [ ] Đã học được công nghệ/framework mới nào?
+- [ ] Đã thiết kế hoặc review kiến trúc hệ thống nào?
+- [ ] Có chứng chỉ mới hoặc tiến bộ trong khoá học?
+- [ ] Đã đọc bao nhiêu sách/bài viết kỹ thuật?
+
+### Quản lý
+- [ ] Đội ngũ có tăng trưởng (số lượng và chất lượng)?
+- [ ] Đã tuyển được ai mới? Ai đã thăng tiến?
+- [ ] Retention rate của team (ai nghỉ, tại sao)?
+- [ ] Quy trình nào đã cải thiện?
+
+### Chiến lược
+- [ ] Đã trình bày với leadership về vấn đề gì?
+- [ ] Đã đề xuất và thực hiện sáng kiến nào?
+- [ ] Đã tiết kiệm chi phí hoặc tăng hiệu suất ở đâu?
+- [ ] Business impact có đo được không?
+
+### Thương hiệu cá nhân
+- [ ] Đã viết bao nhiêu bài blog?
+- [ ] Đã nói chuyện tại bao nhiêu event?
+- [ ] LinkedIn followers/connections tăng bao nhiêu?
+- [ ] Có mentor mới hoặc mentee mới?
+
+### Lương và sự nghiệp
+- [ ] Lương hiện tại so với thị trường?
+- [ ] Có cơ hội thăng tiến tại công ty hiện tại?
+- [ ] Có offer hoặc cơ hội bên ngoài?
+- [ ] Mình đang ở đúng giai đoạn trong lộ trình?
+
+---
+
 *Lộ trình này được thiết kế riêng cho bạn dựa trên vị trí IT Manager với 3 năm kinh nghiệm và mức lương 33tr/tháng tại thị trường Việt Nam. Thời gian và mức lương có thể thay đổi tuỳ theo ngành, quy mô công ty, và năng lực cá nhân.*
